@@ -1,0 +1,132 @@
+
+/* dotaRed= #c33d2b
+ * dotaPurple= #6d438b */
+
+h4{
+    color: #6d438b;
+}
+
+h2{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.3em;
+    color: #7d7d7d;
+    font-family: Arial;
+}
+
+body{
+    background-image: url('images/purpleMist.png');
+}
+
+a{
+    color: #c33d2b;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: #6d438b;
+  text-decoration: none;
+  curser: pointer;
+ 
+}
+
+a:-webkit-any-link:active{
+    color: #666;
+    text-decoration: none;
+}
+
+a:-webkit-any-link:hover{
+    color: #6d438b;
+    text-decoration: none;
+}
+
+p.user_name{
+    font-size: 1.2em;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+#hr {
+    height: 0px;
+    color: #6d438b;
+    background-color: #6d438b;
+    border-top: 1px solid #6d438b;
+}
+
+#avatar{
+    border: 1px solid #6d438b;
+    border-radius: 4px;
+}
+
+p.tweet{
+    font-size: 0.9em;
+    padding-top: 5px;
+    color: #7d7d7d;
+}
+
+#when{
+    color: #7d7d7d;
+    font-size: .9em;
+}
+#twittTitle{
+    color: #6d438b;
+    
+}
+
+#twittbar{
+    padding-top: 0px;
+    padding-bottom: -20px;
+    
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.infoBlock{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #212226;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+#map-canvas{
+    height: 40%;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid #6d438b;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#whereWhen{
+    display: inline-block;
+    width: 45%;
+    padding-right: 5px;
+}
+
+.instas{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+#bottomOut{
+    margin-bottom: 10px;
+}
+
+#theFoot{
+    float: center;
+    font-size: 1em;
+}
